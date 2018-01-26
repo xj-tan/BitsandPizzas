@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
     private String[] titles;
     private ListView drawerList;
     private int currentPosition = 0;
+    private boolean development;
 
     private ShareActionProvider shareActionProvider;
     private ActionBarDrawerToggle drawerToggle;
